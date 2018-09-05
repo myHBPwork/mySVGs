@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 400">
+    <style type="text/css">
+		.line {
+			stroke:grey;
+			stroke-width:1;
+		}
+        .stroke {
+	    stroke-width: 1;
+            stroke: #000;
+        }
+        .fill {
+	    fill: hsla(0, 0%, 50%, .5);
+        }
+        .filloperators {
+	    fill: hsla(210, 100%, 80%, .5);
+        }
+        .fillmanagers {
+	    fill: hsla(225, 100%, 60%, .5);
+        }
+        .fillexec {
+	    fill: hsla(0, 100%, 66%, .5);
+        }
+        .fillexecbox {
+	    fill: hsla(24, 100%, 50%, .5);
+        }
+        .text {
+	    fill: #000;
+        }
+    </style>
+
+    <!-- FilingManager -->
+    <rect class="stroke fillmanagers" x="4.5" y="180" width="120" height="40" />
+    <text class="text" x="5" y="200">FilingManager</text>
+    <!-- operatorsFiling -->
+    <rect class="filloperators" x="1.5" y="240" width="130" height="70" rx="10" ry="10" />
+    <text class="text" x="2" y="260">
+        operatorsFiling:<tspan x="4" dy="20">- Crawler</tspan><tspan x="4" dy="20">- PathSpawner</tspan>
+    </text>
+
+    <!-- SimulationManager -->
+    <rect class="stroke fillmanagers" x="180" y="180" width="165" height="40" />
+    <text class="text" x="180.5" y="200">SimulationManager</text>
+    <!-- operatorsSimaudit -->
+    <rect class="filloperators" x="180" y="240" width="165" height="90" rx="10" ry="10" />
+    <text class="text" x="180.5" y="260">
+        operatorsSimaudit:<tspan x="182" dy="20">- SimAssembler</tspan><tspan x="182" dy="20">- SimInspector</tspan><tspan x="182" dy="20">- Stimulator</tspan>
+    </text>
+
+    <!-- SignalProcessingManager -->
+    <rect class="stroke fillmanagers" x="400" y="180" width="220" height="40" />
+    <text class="text" x="400.5" y="200">SignalProcessingManager</text>
+    <!-- operatorsSignaling -->
+        <rect class="filloperators" x="430" y="240" width="165" height="50" rx="10" ry="10" />
+    <text class="text" x="430.5" y="260">
+        operatorsSignaling:<tspan x="432" dy="20">- Converter</tspan>
+    </text>
+
+    <!-- TranscribeManager -->
+    <rect class="stroke fillmanagers" x="710" y="180" width="160" height="40" />
+    <text class="text" x="710.5" y="200">TranscribeManager</text>
+    <!-- operatorsTranscribe -->
+    <rect class="filloperators" x="680" y="240" width="220" height="110" rx="10" ry="10" />
+    <text class="text" x="680.5" y="260">
+        operatorsTranscribe:<tspan x="682" dy="20">- FileGenerator</tspan><tspan x="682" dy="20">- TimeSeriesGenerator</tspan><tspan x="682" dy="20">- EpochGenerator</tspan><tspan x="682" dy="20">- Fabricator</tspan>
+    </text>
+
+    <!-- RecordManager -->
+    <rect class="stroke fillmanagers" x="1000" y="180" width="130" height="40" />
+    <text class="text" x="1000.5" y="200">RecordManager</text>
+    <!-- operatorsYield -->
+    <rect class="filloperators" x="1000" y="240" width="130" height="60" rx="10" ry="10" />
+    <text class="text" x="1000.5" y="260">
+        operatorsYield:<tspan x="1002" dy="20">- Recorder</tspan>
+    </text>
+
+    <!-- managerVizBokeh -->
+    <rect class="stroke fillmanagers" x="1260" y="180" width="150" height="40" />
+    <text class="text" x="1260.5" y="200">managerVizBokeh</text>
+    <!-- operatorsVisualize -->
+    <rect class="filloperators" x="1220" y="240" width="220" height="110" rx="10" ry="10" />
+    <text class="text" x="1220.5" y="260">
+        operatorsVisualize:<tspan x="1222" dy="20">- Reader</tspan><tspan x="1222" dy="20">- tabModels</tspan><tspan x="1222" dy="20">- tabModelResponses</tspan>
+    </text>
+
+    <!-- ExecutiveControl -->
+    <rect class="stroke fillexecbox" x="540" y="80" width="350" height="60" />
+
+    <rect class="fillexec" x="560" y="90" width="150" height="40" rx="10" ry="10" />
+    <text class="text" x="564" y="110">ExecutiveControl</text>
+
+    <rect class="fillexec" x="760" y="90" width="110" height="40" rx="10" ry="10" />
+    <text class="text" x="764" y="110">executiveViz</text>
+
+</svg>
